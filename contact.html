@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Eagle Flight Schools Agbani</title>
+    <meta name="description" content="Contact Eagle Flight Schools Agbani for secondary school enrollment information, schedule a consultation, or visit our facilities. Quality secondary education programs available.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <i class="fas fa-plane"></i>
+                    <span>Eagle Flight Schools Agbani</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Contact Us</h1>
+                <p>Ready to start your educational journey? Get in touch with us today to learn more about our secondary education programs or schedule a consultation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Parent/Guardian Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Student Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Enrollment Interest *</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Please select...</option>
+                                <option value="jss1">JSS 1 (Junior Secondary 1)</option>
+                                <option value="jss2">JSS 2 (Junior Secondary 2)</option>
+                                <option value="jss3">JSS 3 (Junior Secondary 3)</option>
+                                <option value="ss1">SS 1 (Senior Secondary 1)</option>
+                                <option value="ss2">SS 2 (Senior Secondary 2)</option>
+                                <option value="ss3">SS 3 (Senior Secondary 3)</option>
+                                <option value="transfer">Transfer Student</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="experience">Academic Track Interest</label>
+                            <select id="experience" name="experience">
+                                <option value="">Please select...</option>
+                                <option value="science">Science Track</option>
+                                <option value="arts">Arts Track</option>
+                                <option value="commercial">Commercial Track</option>
+                                <option value="undecided">Undecided</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">When would you like to start?</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Please select...</option>
+                                <option value="next-term">Next Term</option>
+                                <option value="next-session">Next Academic Session</option>
+                                <option value="mid-term">Mid-Term Transfer</option>
+                                <option value="planning">Just Planning Ahead</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us more about your child's educational goals or any specific questions you have..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                I'd like to receive updates about school programs and educational news
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Visit Our School</h4>
+                                    <p>15 School Road, Agbani<br>Nkanu West LGA<br>Enugu State, Nigeria</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Call Us</h4>
+                                    <p><a href="tel:+2348031234567">+234 803 123 4567</a><br><small>Mon-Fri: 8AM-4PM<br>Sat: 9AM-2PM</small></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email Us</h4>
+                                    <p><a href="mailto:info@eagleflightschoolsagbani.edu.ng">info@eagleflightschoolsagbani.edu.ng</a><br><small>We respond within 24 hours</small></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Schedule Online</h4>
+                                    <p><a href="#" class="schedule-link">Book School Visit</a><br><small>Available Monday to Saturday</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Actions -->
+                    <div class="quick-actions">
+                        <h3>Quick Actions</h3>
+                        <div class="action-buttons">
+                            <a href="#" class="action-btn">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>Schedule School Visit</span>
+                            </a>
+                            <a href="programs.html" class="action-btn">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>View Academic Programs</span>
+                            </a>
+                            <a href="#" class="action-btn">
+                                <i class="fas fa-download"></i>
+                                <span>Download Prospectus</span>
+                            </a>
+                            <a href="#" class="action-btn">
+                                <i class="fas fa-calculator"></i>
+                                <span>School Fees Calculator</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div class="social-section">
+                        <h3>Follow Us</h3>
+                        <p>Stay connected for updates, student achievements, and educational news.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Our Location</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Eagle Flight Schools Agbani</h3>
+                        <p>15 School Road, Agbani, Nkanu West LGA, Enugu State</p>
+                        <div class="map-actions">
+                            <a href="#" class="btn btn-primary">Get Directions</a>
+                            <a href="#" class="btn btn-secondary">View on Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="location-info">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Modern Facilities</h4>
+                        <p>Well-equipped classrooms, science laboratories, and computer labs for quality education</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-car"></i>
+                        <h4>Transportation</h4>
+                        <p>School bus service available with safe routes and parking for parents</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <h4>Parent Lounge</h4>
+                        <p>Comfortable waiting area for parents during school visits and meetings</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-wifi"></i>
+                        <h4>Digital Learning</h4>
+                        <p>High-speed internet access and modern technology throughout our campus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How do I enroll my child at Eagle Flight Schools Agbani?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can start the enrollment process by calling us at +234 803 123 4567, filling out our contact form, or visiting our school for a consultation. We offer enrollment throughout the academic year with proper documentation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What documents are required for admission?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Required documents include birth certificate, previous school reports, passport photographs, medical certificate, and transfer certificate (if applicable). We'll provide a complete checklist during your consultation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you offer payment plans for school fees?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer flexible payment plans including termly payments, installment options, and sibling discounts. Contact our administration office to discuss the best payment arrangement for your family.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What academic tracks do you offer for senior secondary students?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer Science, Arts, and Commercial tracks for SS1-SS3 students. Students choose their track based on their interests and career goals, with guidance from our academic counselors.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What are your school hours?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>School hours are Monday-Friday 8AM-4PM. Our administrative office is open Monday-Friday 8AM-4PM and Saturday 9AM-2PM for parent consultations and enrollment matters.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you provide transportation services?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide safe and reliable school bus services covering major routes in Agbani and surrounding areas. Transportation fees are separate from tuition and vary by route distance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-plane"></i>
+                        <span>Eagle Flight Schools Agbani</span>
+                    </div>
+                    <p>Quality secondary education for the next generation of leaders since 1995.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="instructors.html">Instructors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="programs.html#private">Private Pilot</a></li>
+                        <li><a href="programs.html#instrument">Instrument Rating</a></li>
+                        <li><a href="programs.html#commercial">Commercial License</a></li>
+                        <li><a href="programs.html#cfi">Flight Instructor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Airport Drive, Aviation City, AC 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-FLY1</p>
+                        <p><i class="fas fa-envelope"></i> info@eagleflightschool.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eagle Flight School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
