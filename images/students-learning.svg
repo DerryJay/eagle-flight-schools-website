@@ -1,0 +1,96 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F0F8FF"/>
+  
+  <!-- Library Setting -->
+  <rect x="0" y="450" width="800" height="150" fill="#DEB887"/>
+  
+  <!-- Bookshelves -->
+  <rect x="50" y="200" width="30" height="250" fill="#8B4513"/>
+  <rect x="55" y="210" width="20" height="15" fill="#FF6347"/>
+  <rect x="55" y="230" width="20" height="15" fill="#4169E1"/>
+  <rect x="55" y="250" width="20" height="15" fill="#32CD32"/>
+  <rect x="55" y="270" width="20" height="15" fill="#FFD700"/>
+  <rect x="55" y="290" width="20" height="15" fill="#FF69B4"/>
+  <rect x="55" y="310" width="20" height="15" fill="#00CED1"/>
+  <rect x="55" y="330" width="20" height="15" fill="#9370DB"/>
+  <rect x="55" y="350" width="20" height="15" fill="#FFA500"/>
+  
+  <rect x="720" y="200" width="30" height="250" fill="#8B4513"/>
+  <rect x="725" y="210" width="20" height="15" fill="#FF6347"/>
+  <rect x="725" y="230" width="20" height="15" fill="#4169E1"/>
+  <rect x="725" y="250" width="20" height="15" fill="#32CD32"/>
+  <rect x="725" y="270" width="20" height="15" fill="#FFD700"/>
+  <rect x="725" y="290" width="20" height="15" fill="#FF69B4"/>
+  <rect x="725" y="310" width="20" height="15" fill="#00CED1"/>
+  <rect x="725" y="330" width="20" height="15" fill="#9370DB"/>
+  <rect x="725" y="350" width="20" height="15" fill="#FFA500"/>
+  
+  <!-- Study Table -->
+  <rect x="300" y="400" width="200" height="50" fill="#DEB887" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Student 1 (Reading) -->
+  <circle cx="350" cy="350" r="25" fill="#FDBCB4"/>
+  <rect x="340" y="375" width="20" height="40" fill="#4169E1"/>
+  <rect x="330" y="385" width="40" height="15" fill="#FDBCB4"/>
+  <rect x="345" y="390" width="15" height="20" fill="#FF6347"/>
+  
+  <!-- Student 2 (Writing) -->
+  <circle cx="450" cy="350" r="25" fill="#D2B48C"/>
+  <rect x="440" y="375" width="20" height="40" fill="#32CD32"/>
+  <rect x="430" y="385" width="40" height="15" fill="#D2B48C"/>
+  <rect x="445" y="390" width="15" height="20" fill="#4169E1"/>
+  <line x1="455" y1="385" x2="470" y2="390" stroke="#000" stroke-width="2"/>
+  
+  <!-- Student 3 (Group Discussion) -->
+  <circle cx="200" cy="300" r="20" fill="#F4A460"/>
+  <rect x="190" y="320" width="20" height="35" fill="#FFD700"/>
+  <rect x="185" y="330" width="30" height="12" fill="#F4A460"/>
+  
+  <!-- Student 4 (Group Discussion) -->
+  <circle cx="250" cy="300" r="20" fill="#DDA0DD"/>
+  <rect x="240" y="320" width="20" height="35" fill="#FF69B4"/>
+  <rect x="235" y="330" width="30" height="12" fill="#DDA0DD"/>
+  
+  <!-- Books and Materials -->
+  <rect x="320" y="395" width="12" height="18" fill="#FF6347"/>
+  <rect x="335" y="395" width="12" height="18" fill="#4169E1"/>
+  <rect x="350" y="395" width="12" height="18" fill="#32CD32"/>
+  <rect x="365" y="395" width="12" height="18" fill="#FFD700"/>
+  
+  <!-- Notebooks -->
+  <rect x="420" y="395" width="15" height="20" fill="#FFFFFF" stroke="#000" stroke-width="1"/>
+  <rect x="440" y="395" width="15" height="20" fill="#FFFFFF" stroke="#000" stroke-width="1"/>
+  <rect x="460" y="395" width="15" height="20" fill="#FFFFFF" stroke="#000" stroke-width="1"/>
+  
+  <!-- Pencils -->
+  <rect x="480" y="400" width="2" height="15" fill="#FFD700"/>
+  <rect x="485" y="400" width="2" height="15" fill="#FFD700"/>
+  <rect x="490" y="400" width="2" height="15" fill="#FFD700"/>
+  
+  <!-- Window with sunlight -->
+  <rect x="600" y="100" width="120" height="150" fill="#87CEEB" stroke="#8B4513" stroke-width="4"/>
+  <line x1="660" y1="100" x2="660" y2="250" stroke="#8B4513" stroke-width="2"/>
+  <line x1="600" y1="175" x2="720" y2="175" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Sun rays -->
+  <line x1="650" y1="50" x2="660" y2="100" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <line x1="680" y1="60" x2="670" y2="110" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <line x1="620" y1="60" x2="650" y2="110" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Educational Posters -->
+  <rect x="100" y="150" width="80" height="60" fill="#FFB6C1" stroke="#000" stroke-width="2"/>
+  <text x="140" y="170" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#000">SCIENCE</text>
+  <circle cx="130" cy="190" r="8" fill="#FF6347"/>
+  <circle cx="150" cy="190" r="8" fill="#4169E1"/>
+  
+  <rect x="550" y="300" width="80" height="60" fill="#98FB98" stroke="#000" stroke-width="2"/>
+  <text x="590" y="320" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#000">ENGLISH</text>
+  <text x="590" y="340" text-anchor="middle" font-family="Arial" font-size="10" fill="#000">A B C</text>
+  
+  <!-- Thought bubbles -->
+  <circle cx="380" cy="320" r="15" fill="#FFFFFF" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <circle cx="375" cy="310" r="8" fill="#FFFFFF" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <circle cx="370" cy="305" r="4" fill="#FFFFFF" stroke="#000" stroke-width="1" opacity="0.8"/>
+  <text x="380" y="325" text-anchor="middle" font-family="Arial" font-size="8" fill="#000">?</text>
+</svg>
