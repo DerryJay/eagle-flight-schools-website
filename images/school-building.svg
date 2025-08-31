@@ -28,7 +28,7 @@
   
   <!-- School Sign -->
   <rect x="300" y="150" width="200" height="40" fill="#FFFFFF" stroke="#000" stroke-width="2"/>
-  <text x="400" y="175" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">EAGLE SCHOOLS AGBANI</text>
+  <text x="400" y="175" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">EAGLE FLIGHT SCHOOLS AGBANI</text>
   
   <!-- Trees -->
   <circle cx="100" cy="450" r="50" fill="#228B22"/>
